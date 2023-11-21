@@ -70,6 +70,14 @@ resource appServiceApp 'Microsoft.Web/sites@2022-03-01' = {
           name: 'APPLICATIONINSIGHTS_CONNECTION_STRING'
           value: applicationInsights.properties.ConnectionString
         }
+        {
+          name: 'reviewApiUrl'
+          value: reviewApiUrl'
+        }
+        {
+          name: 'ReviewApiKey'
+          value: ReviewApiKey
+        }
       ]
     }
   }
