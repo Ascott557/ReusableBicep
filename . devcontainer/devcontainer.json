@@ -1,0 +1,25 @@
+{
+    "name": "BicepReusable",
+    "settings": { 
+        "terminal.integrated.defaultProfile.linux": "PowerShell",
+        "terminal.integrated.profiles.linux": {
+            "PowerShell": {
+                "path": "pwsh"
+            }
+        }
+    },
+    "extensions": [
+        "ms-python.python",
+        "ms-vscode.cpptools",
+        "github.copilot",
+        "redhat.vscode-yaml",
+        "eamodio.gitlens",
+        "ms-azuretools.vscode-docker",
+        "ms-azuretools.vscode-bicep"
+    ],
+    "forwardPorts": [
+        3000
+    ],
+    "postCreateCommand": "echo 'Container started'",
+    "remoteUser": "vscode"
+}
