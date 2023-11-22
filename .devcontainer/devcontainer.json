@@ -20,6 +20,8 @@
     "forwardPorts": [
         3000
     ],
-    "postCreateCommand": "echo 'Container started'",
-    "remoteUser": "vscode"
+	"postCreateCommand": "echo 'Container started'",
+	"features": {
+		"ghcr.io/devcontainers/features/powershell:1": {}
+	}
 }
